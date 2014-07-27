@@ -28,7 +28,6 @@ angular.module('changeNumberAnimate', [])
         obj.newNum = obj.newNum + 1;         
       }
       Timer = $timeout(function(){ 
-
         changeAction(obj);        
       },speed);
     } 
